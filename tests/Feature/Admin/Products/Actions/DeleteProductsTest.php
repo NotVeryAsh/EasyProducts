@@ -1,6 +1,6 @@
 <?php
 
-namespace Admin\Products\CRUD;
+namespace Admin\Products\Actions;
 
 use Tests\TestCase;
 
