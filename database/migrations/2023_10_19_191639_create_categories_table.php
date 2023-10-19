@@ -17,6 +17,8 @@ return new class extends Migration
             $table->string('subtitle')->nullable();
             $table->string('slug')->unique()->index();
             $table->string('description')->nullable();
+            $table->boolean('draft')->default(true);
+            $table->softDeletes();
             $table->timestamps();
         });
     }

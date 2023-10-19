@@ -18,6 +18,8 @@ return new class extends Migration
             $table->string('slug')->unique()->index();
             $table->string('description')->nullable();
             $table->decimal('price');
+            $table->boolean('draft')->default(true);
+            $table->softDeletes();
             $table->timestamps();
         });
     }

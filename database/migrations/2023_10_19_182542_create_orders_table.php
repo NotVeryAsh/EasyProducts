@@ -19,6 +19,7 @@ return new class extends Migration
             $table->decimal('total');
             $table->decimal('vat');
             $table->integer('quantity');
+            $table->softDeletes();
             $table->timestamps();
         });
     }
