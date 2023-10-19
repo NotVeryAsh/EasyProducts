@@ -4,6 +4,6 @@ namespace Admin\ProductCategories\Pages;
 
 use Tests\TestCase;
 
-class EditProductCategoriesPageTest extends TestCase
+class CreateCategoriesPageTest extends TestCase
 {
 }

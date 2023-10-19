@@ -4,6 +4,6 @@ namespace Admin\ProductCategories\CRUD;
 
 use Tests\TestCase;
 
-class DeleteProductCategoriesTest extends TestCase
+class StoreCategoriesTest extends TestCase
 {
 }
