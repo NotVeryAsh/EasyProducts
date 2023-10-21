@@ -1,7 +1,7 @@
 <nav class="px-10 drop-shadow-sm">
     <div class="flex flex-wrap items-center mx-auto p-4">
         <a href="{{ route('home') }}" class="flex items-center">
-            <img src="{{ asset('images/logo.jpg') }}" class="h-20 mr-5" alt="{{config('app.name')}}"/>
+            <img src="{{ asset('images/logo.jpg') }}" class="h-20 mr-5 rounded-full" alt="{{config('app.name')}}"/>
             <span class="self-center text-3xl font-semibold whitespace-nowrap">{{config('app.name')}}</span>
         </a>
         <div class="flex flex-wrap items-center space-x-8 ml-auto p-4">
