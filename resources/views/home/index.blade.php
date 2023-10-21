@@ -8,6 +8,5 @@
     @include('home.includes.social')
     @include('home.includes.find_us')
     @include('home.includes.social_feed')
-    @include('layouts.includes.footer')
 
 @stop

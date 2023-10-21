@@ -1,4 +1,4 @@
-<!-- About Us -->
+<!-- Social Feed -->
 <h1 class="mt-20 text-center font-semibold text-5xl">Latest Posts</h1>
 <div class="mt-12 flex">
     <div class="mx-auto text-center flex self-center justify-content-center align-items-center content-center">
