@@ -14,6 +14,8 @@ window.$ = $;
 
 import '/node_modules/@fortawesome/fontawesome-free/css/all.min.css';
 
+import "@ptkdev/webcomponent-instagram-widget";
+
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 /**
