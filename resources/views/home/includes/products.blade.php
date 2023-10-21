@@ -1,6 +1,6 @@
 <!-- Products -->
-<h1 class="mt-12 text-center font-semibold text-4xl">Products</h1>
-<div class="mt-12 flex flex-row w-9/12 mx-auto">
+<h1 class="mt-12 text-center font-semibold text-5xl">Products</h1>
+<div class="mt-16 flex flex-row w-9/12 mx-auto">
     <div class="w-full text-center">
         <a href="" class="space-y-3">
             <img class="object-cover ring-2 ring-primary rounded-md w-24 h-24 mx-auto"

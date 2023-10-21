@@ -1,18 +1,18 @@
 <!-- About Us -->
-<h1 class="mt-20 text-center font-semibold text-4xl">About Us</h1>
-<div class="mt-12 w-8/12 mx-auto shadow-lg flex rounded-2xl">
-    <div class="w-3/12">
-        <div class="ml-auto text-center mt-4 leading-relaxed space-y-5 px-8">
+<h1 class="mt-20 text-center font-semibold text-5xl">About Us</h1>
+<div class="mt-16 w-9/12 mx-auto shadow-lg flex rounded-2xl">
+    <div class="w-4/12">
+        <div class="ml-auto text-center mt-4 leading-relaxed space-y-5 px-16">
             <h2 class="text-4xl font-semibold">Hours</h2>
-            <p class="">You can find our hours of operation below:</p>
-            <ul class="text-left list-disc px-6">
+            <p>You can find our hours of operation below:</p>
+            <ul class="text-left list-disc px-12">
                 <li>Monday - Friday: 10am - 8pm</li>
                 <li>Saturday: 9:30am - 8pm</li>
                 <li>Sunday: 10am - 6pm</li>
             </ul>
         </div>
     </div>
-    <div class="w-5/12 max-h-full overflow-hidden">
+    <div class="w-4/12 max-h-full overflow-hidden">
         <img class=""
              src="{{ \App\Services\ImageService::getPublicImage('home/about_us/smoothies_hut.jpg') }}"
              alt="Smoothies Plus Hut">
