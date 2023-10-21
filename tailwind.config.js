@@ -9,6 +9,8 @@ export default {
         extend: {
             colors: {
                 'primary': '#48753e',
+                'facebook': '#1877F2',
+                'instagram': '#E1306C',
             }
         },
     },

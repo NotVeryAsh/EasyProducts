@@ -1,6 +1,6 @@
 <!-- About Us -->
 <h1 class="mt-20 text-center font-semibold text-4xl">About Us</h1>
-<div class="mt-12 w-8/12 mx-auto shadow-xl flex rounded-2xl">
+<div class="mt-12 w-8/12 mx-auto shadow-lg flex rounded-2xl">
     <div class="w-3/12">
         <div class="ml-auto text-center mt-4 leading-relaxed space-y-5 px-8">
             <h2 class="text-4xl font-semibold">Hours</h2>
