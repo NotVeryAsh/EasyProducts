@@ -31,8 +31,14 @@
                 <li>Many Health Benefits</li>
                 <li>Dairy Free Options</li>
             </ul>
-            <p>You can find us at the Mcarthur Glenn Outlet in Cannock *link*</p>
-            <br>
+            <p>You can find us at the Mcarthur Glenn Outlet in Cannock</p>
+            <div class="flex items-center justify-center gap-x-6 text-neutral-700">
+                <a href="#find-us"
+                   class="shadow-xl rounded-md bg-neutral-50 px-3.5 py-2.5 text-sm font-semibold hover:bg-neutral-100
+                   focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2
+                   focus-visible:outline-neutral-100 transition ease-in-out hover:translate-x-1 duration-300">
+                    Show Me <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
         </div>
     </div>
 </div>

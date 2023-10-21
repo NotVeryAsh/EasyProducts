@@ -5,24 +5,24 @@
             <span class="self-center text-3xl font-semibold whitespace-nowrap">{{config('app.name')}}</span>
         </a>
         <div class="flex flex-wrap items-center space-x-8 ml-auto p-4">
-            <a href="">
-                <button class="w-8 h-8">
-                    <div>
-                        <span class="text-primary">
-                            <i class="fa-solid fa-heart"></i>
-                        </span>
-                    </div>
-                </button>
-            </a>
-            <a href="">
-                <button class="w-8 h-8">
-                    <div>
-                        <span class="text-primary">
-                            <i class="text-xl fa-solid fa-bag-shopping"></i>
-                        </span>
-                    </div>
-                </button>
-            </a>
+            {{--            <a href="">--}}
+            {{--                <button class="w-8 h-8">--}}
+            {{--                    <div>--}}
+            {{--                        <span class="text-primary">--}}
+            {{--                            <i class="fa-solid fa-heart"></i>--}}
+            {{--                        </span>--}}
+            {{--                    </div>--}}
+            {{--                </button>--}}
+            {{--            </a>--}}
+            {{--            <a href="">--}}
+            {{--                <button class="w-8 h-8">--}}
+            {{--                    <div>--}}
+            {{--                        <span class="text-primary">--}}
+            {{--                            <i class="text-xl fa-solid fa-bag-shopping"></i>--}}
+            {{--                        </span>--}}
+            {{--                    </div>--}}
+            {{--                </button>--}}
+            {{--            </a>--}}
             <button data-collapse-toggle="navbar-account">
                 <div
                     class="p-1 ring-2 ring-primary flex items-center justify-center w-10 h-10 overflow-hidden rounded-full bg-white">
