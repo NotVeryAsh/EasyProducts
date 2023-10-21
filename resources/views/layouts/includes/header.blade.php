@@ -30,7 +30,7 @@
                 </div>
             </button>
             <div id="navbar-account"
-                 class="z-10 hidden w-5/12 md:w-4/12 lg:w-3/12 xl:w-2/12 absolute top-0 right-0 mt-20 flex-column justify-content-center align-items-center">
+                 class="drop-shadow-xl z-10 hidden w-5/12 md:w-4/12 lg:w-3/12 xl:w-2/12 absolute top-0 right-0 mt-20 flex-column justify-content-center align-items-center">
                 <ul class="font-medium flex flex-col py-4 mt-4 rounded-lg bg-white drop-shadow-sm">
                     <li>
                         @if(Auth::user())
