@@ -1,4 +1,4 @@
-<nav class="px-10 drop-shadow-sm">
+<nav class="px-4 sm:px-10 drop-shadow-sm">
     <div class="flex flex-wrap items-center mx-auto p-4">
         <a href="{{ route('home') }}" class="flex items-center">
             <img src="{{ asset('images/logo.jpg') }}" class="h-20 mr-5" alt="{{config('app.name')}}"/>
