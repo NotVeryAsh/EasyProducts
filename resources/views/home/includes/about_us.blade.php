@@ -1,23 +1,24 @@
 <!-- About Us -->
 <h1 class="mt-20 text-center font-semibold text-5xl">About Us</h1>
-<div class="mt-16 w-9/12 mx-auto shadow-lg flex rounded-2xl">
-    <div class="w-4/12">
+<div class="mt-16 mx-auto shadow-lg flex flex-col xl:flex-row rounded-2xl w-9/12 md:w-8/12 lg:w-7/12 xl:w-9/12">
+    <div class="xl:w-4/12 pb-10 mx-auto">
         <div class="ml-auto text-center mt-4 leading-relaxed space-y-5 px-16">
             <h2 class="text-4xl font-semibold">Hours</h2>
             <p>You can find our hours of operation below:</p>
-            <ul class="text-left list-disc px-12">
+            <ul class="text-left list-disc px-6 {{--xl:px-12--}}">
                 <li>Monday - Friday: 10am - 8pm</li>
                 <li>Saturday: 9:30am - 8pm</li>
                 <li>Sunday: 10am - 6pm</li>
             </ul>
         </div>
     </div>
-    <div class="w-4/12 max-h-full overflow-hidden">
-        <img class=""
+    <div class="xl:w-4/12 max-h-full overflow-hidden">
+        <img class="object-cover h-full w-full"
              src="{{ \App\Services\ImageService::getPublicImage('home/about_us/smoothies_hut.jpg') }}"
              alt="Smoothies Plus Hut">
     </div>
-    <div class="w-4/12 bg-primary ml-auto rounded-r-2xl pb-10">
+    <div
+        class="xl:w-4/12 bg-primary ml-auto rounded-b-2xl xl:rounded-bl-none xl:rounded-r-2xl pb-10 mx-auto sm:px-8 xl:px-0">
 
         <div class="ml-auto text-center mt-4 text-neutral-100 leading-relaxed space-y-5 px-8">
             <h2 class="text-4xl font-semibold">Smoothies Plus</h2>
