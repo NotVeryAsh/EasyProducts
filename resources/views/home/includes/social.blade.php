@@ -1,7 +1,7 @@
 <!-- About Us -->
 <h1 class="mt-20 text-center font-semibold text-5xl">Social Media</h1>
 <div
-    class="mt-16 mx-auto flex flex-row rounded-2xl w-1/5">
+    class="mt-16 mx-auto flex flex-row rounded-2xl w-4/5 md:w-3/5 lg:w-2/6 2xl:w-1/5">
     <div class="w-full text-center">
         <a href="https://www.facebook.com/smoothiesplusuk/" class="space-y-3">
             <div
